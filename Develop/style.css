@@ -176,3 +176,21 @@ input#symbols {
   }
 }
 
+@media (min-width: 601px) and (max-width: 690px) {
+  .card-footer {
+    margin: 30px 90px 10px 100px;
+    justify-content: space-evenly;
+
+  }
+  .settings {
+    margin: 20px 10px 20px 120px;
+}
+}
+
+
+@media (min-width: 501px) and (max-width: 600px) {
+  .card-footer {
+    margin: 30px 90px 10px 0px;
+    justify-content: space-evenly;
+  }
+}
