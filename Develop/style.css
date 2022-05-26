@@ -13,7 +13,7 @@ body,
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   background-color: #f9fbfd;
 }
 
@@ -50,20 +50,17 @@ header {
   height: 2px;
 }
 
+.card-header h2{
+  text-align: center;
+}
+
 .card-body {
   min-height: 100px;
 }
 
 .card-footer {
-  text-align: center;
-}
-
-.card-footer::before {
-  content: " ";
-  display: block;
-  width: 100%;
-  background: #e7e9eb;
-  height: 2px;
+  display: flex;
+  margin: 30px auto 10px 130px;
 }
 
 .card-footer::after {
@@ -118,6 +115,30 @@ button[disabled]{
   overflow: hidden;
 }
 
+
+input#length {
+  margin-left: 10px;
+}
+
+.settings {
+  margin: 20px 10px 20px 230px;
+}
+
+input#uppercase, input#lowercase {
+  margin: 0px 0px 0px 24px;
+}
+
+input#numbers {
+  margin: 0px 0px 0px 46px;
+}
+
+input#symbols {
+  margin: 0px 0px 0px 14px;
+}
+
+
+
+
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
@@ -135,3 +156,23 @@ button[disabled]{
     font-size: 0.8rem;
   }
 }
+
+@media (min-width: 372px) and (max-width: 600px) {
+  .settings {
+    margin: 20px 0px 20px 20px;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 372px) {
+  .settings {
+    margin: 20px 0px 20px 0px;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 500px) {
+  .card-footer {
+    margin: 30px auto 10px 40px;
+    justify-content: space-between;
+  }
+}
+
