@@ -26,14 +26,15 @@ generate.addEventListener('click', () => {
 	resultEl.innerText = generatePassword(hasLower, hasUpper, hasNumber, hasSymbol, length);
 });
 
-clipboardEl.addEventListener('click',()=>{
 
-  let input = document.getElementById('password')
-  
-  navigator.clipboard.writeText(input)
+// Copy to clipboard
+document.getElementById('clipboard').onclick = function() {
+  var copyText = document.getElementById('password').value;
+  navigator.clipboard.writeText(copyText).then(() => {
 
-
-})
+    alert('Copied to clipboard')
+  });
+}
 
 function generatePassword(lower, upper, number, symbol, length) {
 	let generatedPassword = '';
