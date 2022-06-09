@@ -14,7 +14,7 @@ const randomFunc = {
 	symbol: getRandomSymbol
 }
 
-
+console.log(randomFunc.lower, )
 
 generate.addEventListener('click', () => {
 	const length = +lengthEl.value;
