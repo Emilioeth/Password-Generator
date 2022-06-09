@@ -4,7 +4,7 @@ Generate your safe password with custom length and characters
 
 link to deployed application - 
 
-https://emilioeth.github.io/UTEmilio-Week3/
+https://emilioeth.github.io/Password-Generator/
 
 
 
@@ -12,4 +12,6 @@ https://emilioeth.github.io/UTEmilio-Week3/
 
 JS. HTML. CSS.
 
-# By Emili0
+# Contributions
+
+By Emili0
