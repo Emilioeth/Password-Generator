@@ -46,6 +46,16 @@ function generatePassword(lower, upper, number, symbol, length) {
 		return '';
 	}
 	
+	if(length > 250) {
+		alert("Password length must be lower than 250")
+		return '';
+	}
+
+	if(length < 0) {
+		alert("Password length must be higher than 0")
+		return '';
+	}
+
 	// create a loop
 	for(let i=0; i<length; i+=typesCount) {
 		typesArr.forEach(type => {
