@@ -140,16 +140,20 @@ input#length {
   margin: 20px 10px 20px 250px;
 }
 
-input#uppercase, input#lowercase {
+input#uppercase {
   margin: 0px 0px 0px 24px;
+}
+
+input#lowercase {
+  margin: 0px 0px 0px 22px;
 }
 
 input#numbers {
-  margin: 0px 0px 0px 33px;
+  margin: 0px 0px 0px 32px;
 }
 
 input#symbols {
-  margin: 0px 0px 0px 24px;
+  margin: 0px 0px 0px 22px;
 }
 
 footer h2 {
