@@ -51,8 +51,8 @@ function generatePassword(lower, upper, number, symbol, length) {
 		return '';
 	}
 
-	if(length < 0) {
-		alert("Password length must be higher than 0")
+	if(length < 4) {
+		alert("Password length must be higher than 4")
 		return '';
 	}
 
