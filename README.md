@@ -1,7 +1,7 @@
 
   ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Roboto+Condensed&size=30&pause=2000&color=0078D6&width=435&lines=Password+Generator;By+Emili0)
 
-  ![Project Img](/imgs/readmeIMG.png)
+  ![Project Img](/img/readmeIMG.png)
   
   ## Description
   This app was made to increase your passwords security, you can generate  a safe password with a custom length and choose which type of characters you want it to include, you can then copy it to your clipboard and use it as you wish.
