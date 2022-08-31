@@ -1,5 +1,5 @@
 
-  ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Roboto+Condensed&size=30&pause=2000&color=0078D6&width=435&lines=Password+Generator;By+Emili0)
+  ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Roboto+Condensed&size=30&pause=2000&color=5CDB95&width=435&lines=Password+Generator;By+Emili0)
 
   ![Project Img](/imgs/readmeIMG.png)
   
