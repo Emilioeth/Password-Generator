@@ -6,7 +6,7 @@
   ## Description
   This app was made to increase your passwords security, you can generate  a safe password with a custom length and choose which type of characters you want it to include, you can then copy it to your clipboard and use it as you wish.
 
-  https://emilioeth.github.io/Password-Generator/
+  [Link](https://emilioeth.github.io/Password-Generator/)
 
   ![visitors](https://visitor-badge.glitch.me/badge?page_id=Emilioeth.Password+Generator&left_color=blue&right_color=blue)
 
